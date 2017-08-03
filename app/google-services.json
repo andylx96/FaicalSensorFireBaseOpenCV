@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "608064941598",
+    "firebase_url": "https://pennie-rocks.firebaseio.com",
+    "project_id": "pennie-rocks",
+    "storage_bucket": "pennie-rocks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608064941598:android:55d695e8b3f736a6",
+        "android_client_info": {
+          "package_name": "io.github.andylx96.sensorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608064941598-nmucsmib2tuo4smsr9dtkju1onkdricg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.andylx96.sensorapp",
+            "certificate_hash": "1fe5259831738cbd35581463f93bfd502c6893d1"
+          }
+        },
+        {
+          "client_id": "608064941598-cne41fu7erlov0gp3282p79fp6bqjhe5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDevsn_JWCm5WZSYNspERzXbK_TDZrmUMk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608064941598-r6j8nc073q1m9q3p88j87ndsm174fo2j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Tucker.Pennie-Rocks"
+              }
+            },
+            {
+              "client_id": "608064941598-cne41fu7erlov0gp3282p79fp6bqjhe5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608064941598:android:0f2270f6725d2020",
+        "android_client_info": {
+          "package_name": "io.github.andylx96.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608064941598-tsv6vpovhqd6tos6bcjqni7ra3lcchpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.andylx96.myapplication",
+            "certificate_hash": "1fe5259831738cbd35581463f93bfd502c6893d1"
+          }
+        },
+        {
+          "client_id": "608064941598-cne41fu7erlov0gp3282p79fp6bqjhe5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDevsn_JWCm5WZSYNspERzXbK_TDZrmUMk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608064941598-r6j8nc073q1m9q3p88j87ndsm174fo2j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Tucker.Pennie-Rocks"
+              }
+            },
+            {
+              "client_id": "608064941598-cne41fu7erlov0gp3282p79fp6bqjhe5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

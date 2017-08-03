@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.github.andylx96.myapplication.Main2Activity">
+
+    <Button
+        android:text="Proximity Sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="110dp"
+        android:id="@+id/proxSensor" />
+
+    <Button
+        android:text="Accelerometer Sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accelSensor"
+        android:layout_alignTop="@+id/proxSensor"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp" />
+
+    <Button
+        android:text="Gyroscopic Sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gyroSensor"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Pressure Sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/proxSensor"
+        android:layout_alignParentStart="true"
+        android:id="@+id/pressureSensor" />
+
+    <Button
+        android:text="Magnetometer Sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pressureSensor"
+        android:layout_alignParentStart="true"
+        android:id="@+id/magnetSensor" />
+
+    <Button
+        android:text="Step Sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/magnetSensor"
+        android:layout_alignParentStart="true"
+        android:id="@+id/stepSensor" />
+
+    <Button
+        android:text="GPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stepSensor"
+        android:layout_alignParentStart="true"
+        android:id="@+id/gpsButton" />
+
+    <Button
+        android:text="Camera OpenCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gpsButton"
+        android:layout_alignParentStart="true"
+        android:id="@+id/openCVCamera" />
+
+    <Button
+        android:text="Gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gravityButton"
+        android:layout_above="@+id/openCVCamera"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:text="Motion Detection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gravityButton"
+        android:layout_toEndOf="@+id/accelSensor"
+        android:id="@+id/detectionButton" />
+
+    <Button
+        android:text="Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/openCVCamera"
+        android:layout_alignStart="@+id/detectionButton"
+        android:id="@+id/lightButton" />
+
+    <Button
+        android:text="Rotation Vector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lightButton"
+        android:layout_alignStart="@+id/lightButton"
+        android:layout_marginTop="13dp"
+        android:id="@+id/rotationVector" />
+
+    <Button
+        android:text="Temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temperatureButton"
+        android:layout_below="@+id/rotationVector"
+        android:layout_alignStart="@+id/rotationVector" />
+
+    <Button
+        android:text="Humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temperatureButton"
+        android:layout_alignStart="@+id/temperatureButton"
+        android:layout_marginStart="12dp"
+        android:id="@+id/humidityButton" />
+
+</RelativeLayout>

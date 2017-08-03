@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.andylx96.myapplication.MainActivity">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/text_view"/>-->
+
+    <org.opencv.android.JavaCameraView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/java_camera_view"
+    />
+
+    <!--<Button-->
+        <!--android:text="Canny"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="19dp"-->
+        <!--android:id="@+id/buttonCanny" />-->
+
+    <!--<Button-->
+        <!--android:text="GrayScale"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/buttonGray"-->
+        <!--android:layout_alignBaseline="@+id/buttonCanny"-->
+        <!--android:layout_alignBottom="@+id/buttonCanny"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<Button-->
+        <!--android:text="Normal"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/Normal"-->
+        <!--android:layout_alignBaseline="@+id/buttonGray"-->
+        <!--android:layout_alignBottom="@+id/buttonGray"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+</RelativeLayout>
